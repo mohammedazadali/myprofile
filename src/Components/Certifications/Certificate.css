@@ -1,0 +1,84 @@
+.main-certify{
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.certifies{
+    width: 100vw;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    top: 100px;
+}
+.certify{
+    padding-top: 20px;
+}
+.cert-title{
+    font-size: 1.5rem;
+}
+.cert-table{
+    width: 100%;
+}
+.cert-table,.th,.td{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.cer-btn{
+    background: rgb(255, 194, 40);
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .certifies{
+        max-width: 90%;
+    }
+    .cert-title{
+        font-size: 1.5rem;
+    }
+    .pro-des{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .certifies{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .main-certify{
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+   
+    .cert-table{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .cert-table,.th,.td{
+        font-size: 0.7rem;
+    }
+    .cer-btn{
+        background: rgb(255, 194, 40);
+        padding: 5px;
+        width: 80px;
+        text-align: center;
+        font-size: 0.7rem;
+        color: #fff;
+        font-weight: 700;
+    }
+}

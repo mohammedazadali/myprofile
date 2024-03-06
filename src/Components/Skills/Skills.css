@@ -1,0 +1,103 @@
+*{
+    border: none;
+}
+.main-skills{
+    background: #171717;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 70px;
+    padding-top: 20px;
+}
+.skills{
+    width: 100vw;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.skill-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.skill  .div-main{
+    display: flex;
+    height: 20px;
+    background: #fff;
+    border-radius: 50px;
+    padding-right: 5px;
+}
+.skill div span .div-main,.Python,.React,.MangoDB,.Nodejs,.JavaScript,.Git,.machine,.vsCode,.Angular{
+    width: 80%;
+    height: 100%;
+    background: rgb(255, 194, 40);
+    border-radius: 50px;
+    padding: 10px;
+}
+.skill table{
+    width: 100%;
+    padding-top: 20px;
+}
+.skill tr{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.skill td{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.skill table p{
+    font-size:1.3rem;
+    color: #fff;
+    font-weight: 600px;
+}
+.Java{
+    width: 60%;height: 100%;
+    background: rgb(255, 194, 40);
+    border-radius: 50px;
+    padding: 10px;
+}
+.machine{
+    width: 50%;height: 100%;
+    background: rgb(255, 194, 40);
+    border-radius: 50px;
+    padding: 10px;
+}
+.ai,.others{
+    width: 70%;height: 100%;
+    background: rgb(255, 194, 40);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:992px) {
+    .skills{
+        max-width: 90%;
+    }
+    .skill-title{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .skills{
+        max-width: 100%;
+    }
+    .skill td p{
+        font-size: 0.8rem;
+    }
+    table{
+        width: 100%;
+    }
+    td,th{
+        padding: 10px 0;
+    }
+    .skill  .div-main{
+        font-size: 0.7rem;
+        align-items: center;
+        padding-right: 2px;
+    }
+}

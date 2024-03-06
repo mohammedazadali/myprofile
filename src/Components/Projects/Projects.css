@@ -1,0 +1,77 @@
+.main-projects{
+    font-family: "Poppins", sans-serif;
+    width: 100vw;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 20px 20px 0 20px;
+}
+.work{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:30px;
+    row-gap: 30px;
+    padding:10px ;
+}
+.project{
+    background: #fff;
+    width:350px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.project p{
+    font-size: 0.9rem;
+    text-align: justify;
+}
+.project .projecttop{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: rgb(217, 165, 32) ;
+}
+.projecttitle{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 12px 0 7px 0;
+}
+.projectbtn{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    background: rgb(255, 194, 40) ;
+    border-radius: 5px;
+}
+
+
+
+
+@media screen and (max-width:992px) {
+    .main-projects{
+        max-width: 90%;
+    }
+    .project{
+        width: 100%;
+    }
+    .work{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .main-projects{
+        max-width: 100%;
+    }
+    .projects{
+        padding: 0;
+        padding-top:20px;
+    }
+    .exp-sub-title{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,97 @@
+.main-education{
+    background: #171717;
+    color: #fff;
+    margin-top: 70px;
+    padding-top: 20px;
+}
+.educations{
+    width: 100vw;
+    max-width: 80%;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+}
+.edu-top{
+    font-size: 1.5rem;
+    color:#fff ;
+}
+.educations .school{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.education{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding-top: 100px;
+}
+.education .content-box{
+   align-items: center;
+   text-align: center;
+   column-gap: 30px;
+   padding: 20px;
+   width: 500px;
+   height: 200px;
+   margin: auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    align-items: center;
+}
+.education div .edulogo{
+    background:rgb(217, 165, 32)  ;
+    padding: 10px;
+    font-size: 2rem;
+    height: 70px;
+    border-radius: 5px;
+    color: #fff;
+}
+.education div h1{
+    margin: 0;
+    font-size: 1.5rem;
+}
+.class{
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width:992px) {
+    .educations{
+        max-width: 90%;
+    }
+    .educations .school{
+        font-size: 1.2rem;
+    }
+    .education .content-box{
+        width: 300px;
+        padding: 0%;
+    }
+}
+@media screen and (max-width:600px) {
+    .educations{
+        max-width: 100%;
+    }
+    .educations .school{
+        font-size: 1.2rem;
+    }
+    .education .content-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .education{
+        padding-top: 50px;
+    }
+    .education div .edulogo{
+        padding: 15px;
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,43 @@
+footer{
+    background: #171717;
+    color: #fff;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+.footer{
+    width: 100vw;
+    max-width: 80%;
+    margin:10px auto;
+}
+.content-footer{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-logo{
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color:rgb(217, 165, 32) ;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width:992px) {
+   
+    .footer{
+        max-width: 90%;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .footer{
+        max-width: 100%;
+    }
+    
+}

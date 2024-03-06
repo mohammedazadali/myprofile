@@ -1,0 +1,37 @@
+{
+    "projects":[
+ 
+    {
+        "projecttitle":"WebDoctor",
+        "des":"WebDoctor  is an innovative and sophisticated healthcare solution that leverages state-of-the-art Machine learning techniques to predict and assess the risk of functional diseases in individuals.",
+        "domain":"Web Development",
+        "tech":"Machine Learning,Streamlit,Pandas",
+        "feature":["The web application boasts an intuitive and user-friendly interface, ensuring accessibility for both healthcare professionals and individuals seeking self-assessment. Users can easily input their health data, and the system generates personalized predictions based on the underlying Machine learning model."] ,
+        "link":"https://prediction-42odz2cfj4pm556jqbh76j.streamlit.app/"
+    },
+    {
+        "projecttitle":"GreenBite LandingPage",
+        "des":"GreenBite a functional organic food delivery service. The service focuses on delivering fresh, organic produce and healthy meal kits to customers' doorsteps. ",
+        "domain":"UI/UX",
+        "tech":"Figma,Gimp,Canva",
+        "feature":["Crafted a user-friendly GreenBite landing page prioritizing smooth navigation and readability for an enhanced user experience on both desktop and mobile.","The UI/UX is crafted to make the organic food shopping process effortless, catering to users of all ages and technical abilities."],
+        "link":"https://www.figma.com/proto/y0Gpez37iK8qXFcg25uWr6/Untitled?page-id=0%3A1&type=design&node-id=76-102&viewport=-2147%2C-74%2C0.37&t=GusveShdqololog8-1&scaling=min-zoom&mode=design" 
+    },
+    {
+        "projecttitle":"Danjr Wedding Biryani LandingPage",
+        "des":"It is a functional  traditional and Organic Viragaduppu Biryani delivery service. The service focuses on delivering fresh, organic biryani and meal kits to customers' doorsteps. ",
+        "domain":"UI/UX",
+        "tech":"Figma,Gimp,Canva",
+        "feature":["Crafted a user-friendly Danjr wedding biryani landing page prioritizing smooth navigation and readability for an enhanced user experience on both desktop and mobile.","The UI/UX is crafted to make the  traditional Biryani  shopping process effortless, catering to users of all ages and technical abilities."] ,
+        "link":"https://www.figma.com/proto/KE79n2CbygGnEXN0SwrFrz/Guvi-Hackathon?page-id=1%3A324&type=design&node-id=28-417&viewport=3161%2C-753%2C0.24&t=UFKtbaFXEC2Oj0QV-1&scaling=min-zoom&starting-point-node-id=12%3A1695&mode=design"
+    },
+    {
+        "projecttitle":"Plantdr",
+        "des":"PlantDr is an innovative and functional AI-driven solution designed to revolutionize the field of agriculture by predicting leaf diseases in plants.",
+        "domain":"Web Development",
+        "tech":"MERN Stack,Deep Learning",
+        "feature":["Leveraging the power of artificial intelligence, PlantDr aims to assist farmers, agronomists, and gardeners in proactively managing plant health, minimizing crop losses, and promoting sustainable farming practices.","The platform provides detailed insights into the detected diseases, recommended treatments, and preventive measures, fostering informed decision-making."],
+        "link":"" 
+    }
+]
+}

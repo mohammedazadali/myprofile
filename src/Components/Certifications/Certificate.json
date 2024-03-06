@@ -1,0 +1,46 @@
+{
+    "certificates":[{
+        "certificate":"Artificial Intelligence And Data Science Workshop",
+        "platform":"E-box",
+        "link":""
+        },
+        {
+        "certificate":"FullStack With Python",
+        "platform":"Guvi",
+        "link":"https://drive.google.com/file/d/1p5fikEtFMqbloZduJrqMiBPvxdMufB8H/view?usp=sharing"
+        },
+        {
+        "certificate":"Python Programming",
+        "platform":"Besant Technologies",
+        "link":"https://drive.google.com/file/d/1fYvJYHNMd3M4LqR7QGUsyyUhhyP-Aulo/view?usp=sharing"
+        },{
+        "certificate":"Project On Intelligence Garbage Classification Using Deep Learning",
+        "platform":"IBM",
+        "link":"https://drive.google.com/file/d/1TJJcU68quZZnRYPFaFH0Rp06VuYzM6NS/view?usp=sharing"
+        }
+        ,{
+        "certificate":"Figma",
+        "platform":"Guvi",
+        "link":"https://drive.google.com/file/d/1iKq457Scumu18Wq1QpyWHyds4Ta-ER2h/view?usp=sharing"
+        }
+        ,{
+        "certificate":"Employability Skill",
+        "platform":"Naan Mudhalvan",
+        "link":""
+        },
+        {
+            "certificate":"Node Js",
+            "platform":"Infosys Springboard",
+            "link":"https://drive.google.com/file/d/1FqvOKNYWZlWTwwrZl-kE7YMit3mZT3Rk/view?usp=sharing"
+            },
+        {
+            "certificate":"Mongodb",
+            "platform":"Infosys Springboard",
+            "link":"https://drive.google.com/file/d/14fgOUNRun_6WmRSyfQLEF5oHbdvIViC2/view?usp=sharing"
+            },
+        {
+            "certificate":"Web Development",
+            "platform":"Rinex",
+            "link":"https://drive.google.com/file/d/1GNx5Zm2hpIVf_ZGVXFSztUJPOMnoaTQK/view?usp=sharing"
+            }]
+}
