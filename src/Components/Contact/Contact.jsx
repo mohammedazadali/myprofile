@@ -19,7 +19,7 @@ function Contact() {
           alert('Thank You For Contact Us');
         },
         (error) => {
-          alert('Sorry Pls Try Again');
+          alert('Sorry Fill The Form');
           console.log(error.txt)
         },
       );
@@ -44,9 +44,9 @@ function Contact() {
             <label >Full Name <span>*</span></label>
             <input type="text" name='name' placeholder='Mohammed Azad Ali' required />
             <label >Email<span>*</span></label>
-            <input type="e-mail" name="email" placeholder='mohammed@gmail.com' required />
+            <input type="email" name="email" placeholder='mohammed@gmail.com' required />
             <label >Message<span>*</span></label>
-            <textarea name="message"  cols="30" rows="10"></textarea>
+            <textarea name="message"  cols="30" rows="10" required></textarea>
             <button type="submit" className='con-btn'>Shoot</button>
         </form>
        </div>
