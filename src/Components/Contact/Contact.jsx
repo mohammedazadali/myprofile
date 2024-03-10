@@ -35,8 +35,6 @@ function Contact() {
           <div className="social-icons">
          <span className='social-icon'><SocialIcon url="https://www.linkedin.com/in/mohammed-azad-ali-junior-webdeveloper-uiuxdesigner/"  target='_blank'/></span>
          <span className='social-icon'><SocialIcon url="https://www.instagram.com/brickwebdesigns/?next=%2F" /></span>
-         <span className='social-icon'><SocialIcon url="https://x.com" /></span>
-         <span className='social-icon'><SocialIcon url="https://pinterest.com" /></span>
          </div>
         </div>
        <div className="form">
@@ -46,7 +44,7 @@ function Contact() {
             <label >Email<span>*</span></label>
             <input type="email" name="email" placeholder='mohammed@gmail.com' required />
             <label >Message<span>*</span></label>
-            <textarea name="message"  cols="30" rows="10" required></textarea>
+            <textarea name="message"  cols="30" rows="10" required placeholder='Write Your Message'></textarea>
             <button type="submit" className='con-btn'>Shoot</button>
         </form>
        </div>
