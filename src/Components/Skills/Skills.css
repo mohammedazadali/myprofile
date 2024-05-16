@@ -25,9 +25,11 @@
     background: #fff;
     border-radius: 50px;
     padding-right: 5px;
+    width: 100%;
+    background: rgb(255, 194, 40);
 }
-.skill div span .div-main,.Python,.React,.MangoDB,.Nodejs,.JavaScript,.Git,.machine,.vsCode,.Angular{
-    width: 80%;
+.skill div span .div-main{
+    width: 100%;
     height: 100%;
     background: rgb(255, 194, 40);
     border-radius: 50px;
@@ -54,24 +56,7 @@
     color: #fff;
     font-weight: 600px;
 }
-.Java{
-    width: 60%;height: 100%;
-    background: rgb(255, 194, 40);
-    border-radius: 50px;
-    padding: 10px;
-}
-.machine{
-    width: 50%;height: 100%;
-    background: rgb(255, 194, 40);
-    border-radius: 50px;
-    padding: 10px;
-}
-.ai,.others{
-    width: 70%;height: 100%;
-    background: rgb(255, 194, 40);
-    border-radius: 50px;
-    padding: 10px;
-}
+
 
 
 @media screen and (max-width:992px) {

@@ -16,7 +16,7 @@ function Contact() {
       })
       .then(
         () => {
-          alert('Thank You For Contact Us');
+          none
         },
         (error) => {
           alert('Sorry Fill The Form');

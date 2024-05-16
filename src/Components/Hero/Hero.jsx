@@ -1,9 +1,7 @@
 import React from 'react'
-import logo from '../Assets/hero.png'
+import logo from '../Assets/web_dev.png'
 import './Hero.css'
 import { Link } from 'react-scroll'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faEye} from '@fortawesome/free-solid-svg-icons'
 function Hero() {
   return (
    <section className="hero" id='home'>
